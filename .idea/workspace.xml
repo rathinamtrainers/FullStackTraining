@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Removed border attribute in table as it is deprecated.">
-      <change afterPath="$PROJECT_DIR$/030-form-demo.html" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Form Demo">
+      <change afterPath="$PROJECT_DIR$/040-semantics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736565900216</updated>
-      <workItem from="1736565901339" duration="4926000" />
+      <workItem from="1736565901339" duration="5723000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -92,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736570326673</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Form Demo">
+      <option name="closed" value="true" />
+      <created>1736571218622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736571218622</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +121,7 @@
     <MESSAGE value="Basics of html - demo-1" />
     <MESSAGE value="Table demo" />
     <MESSAGE value="Removed border attribute in table as it is deprecated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed border attribute in table as it is deprecated." />
+    <MESSAGE value="Form Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form Demo" />
   </component>
 </project>

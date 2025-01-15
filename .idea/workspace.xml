@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Multimedia - audio, video, iframe (youtube, google maps), webpage background image.">
-      <change afterPath="$PROJECT_DIR$/060-attributes-metadata.html" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Global Attributes, Metadata, SEO, Search Engines.">
+      <change afterPath="$PROJECT_DIR$/070-hyperlinks-navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736565900216</updated>
       <workItem from="1736565901339" duration="6863000" />
-      <workItem from="1736910031547" duration="4643000" />
+      <workItem from="1736910031547" duration="5742000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -127,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736913534661</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Global Attributes, Metadata, SEO, Search Engines.">
+      <option name="closed" value="true" />
+      <created>1736915118159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736915118159</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Global Attributes, Metadata, SEO, Search Engines.">
+      <option name="closed" value="true" />
+      <created>1736915129652</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736915129652</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +167,7 @@
     <MESSAGE value="Form Demo" />
     <MESSAGE value="Semantics demo" />
     <MESSAGE value="Multimedia - audio, video, iframe (youtube, google maps), webpage background image." />
-    <option name="LAST_COMMIT_MESSAGE" value="Multimedia - audio, video, iframe (youtube, google maps), webpage background image." />
+    <MESSAGE value="Global Attributes, Metadata, SEO, Search Engines." />
+    <option name="LAST_COMMIT_MESSAGE" value="Global Attributes, Metadata, SEO, Search Engines." />
   </component>
 </project>

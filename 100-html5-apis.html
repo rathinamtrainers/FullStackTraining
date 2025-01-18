@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Drawing App</title>
+  <style>
+    canvas {
+      border: 1px solid black;
+      cursor: crosshair;
+    }
+  </style>
+</head>
+<body>
+<h1>HTML5 Canvas Drawing App</h1>
+<p>Click and drag on the canvas to draw.</p>
+<canvas id="drawingCanvas" width="600" height="400"></canvas>
+<script>
+  const canvas = document.getElementById('drawingCanvas');
+  const ctx = canvas.getContext('2d');
+  let isDrawing = false;
+
+  // Start Drawing
+  canvas.addEventListener('mousedown', (e) => {
+    isDrawing = true;
+    ctx.beginPath();
+    ctx.moveTo(e.offsetX, e.offsetY);
+  });
+
+  // Draw
+  canvas.addEventListener('mousemove', (e) => {
+    if (isDrawing) {
+      ctx.lineTo(e.offsetX, e.offsetY);
+      ctx.stroke();
+    }
+  });
+
+  // Stop Drawing
+  canvas.addEventListener('mouseup', () => {
+    isDrawing = false;
+    ctx.closePath();
+  });
+
+  canvas.addEventListener('mouseout', () => {
+    isDrawing = false;
+  });
+</script>
+
+
+
+<svg width="500" height="300">
+  <circle cx="250" cy="150" r="50" fill="blue" />
+</svg>
+<svg width="500" height="300">
+  <rect x="100" y="100" width="200" height="100" fill="green" />
+</svg>
+
+
+
+</body>
+</html>

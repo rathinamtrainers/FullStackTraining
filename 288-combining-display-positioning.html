@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display and Positioning</title>
+  <style>
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: lightblue;
+      text-align: center;
+      padding: 10px;
+    }
+    .main {
+      margin-top: 60px;
+    }
+    .sidebar {
+      position: absolute;
+      top: 35px;
+      left: 0;
+      width: 200px;
+      height: 1000px;
+      background-color: lightgreen;
+      padding: 10px;
+    }
+    .content {
+      margin-left: 220px;
+      background-color: lightyellow;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+<div class="header">Fixed Header</div>
+<div class="main">
+  <div class="sidebar">Sidebar (Absolute)</div>
+  <div class="content">
+    <p>This is the main content area.</p>
+  </div>
+</div>
+</body>
+</html>

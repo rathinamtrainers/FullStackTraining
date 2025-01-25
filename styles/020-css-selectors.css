@@ -1,0 +1,33 @@
+
+/* Universal Selector: set blue color as the default for all elements in the HTML document. */
+* {
+    color: blue;
+}
+
+body {
+    background-color: black;
+}
+
+/* Type Selector (element) */
+p {
+    color: #079c07;
+    line-height: 1.6;
+}
+
+/* Class Selector (.classname): Targets elements with a specific class attribute */
+.highlight {
+    background-color: rgb(255, 255, 0);
+}
+
+/* ID selector (#idname): Targets an element with a specific id attribute */
+#main-content {
+    color: rgb(255, 0, 0);
+}
+#main-content2 {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+/* Grouped Selector (selector1, selector2): Targets multiple selectors at once. */
+h1, p {
+    font-family: Arial, sans-serif;
+}

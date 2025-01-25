@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Type of CSS approaches - Inline, Internal, and External.">
-      <change afterPath="$PROJECT_DIR$/230-css-selectors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240-color-formats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/020-css-selectors.css" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="css selectors and color formats.">
+      <change afterPath="$PROJECT_DIR$/250-styling-headers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/252-styling-paragraphs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/254-styling-links.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <workItem from="1736910031547" duration="8694000" />
       <workItem from="1737170120394" duration="7067000" />
       <workItem from="1737774408949" duration="362000" />
-      <workItem from="1737774899911" duration="2834000" />
+      <workItem from="1737774899911" duration="3653000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -214,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737776288393</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="css selectors and color formats.">
+      <option name="closed" value="true" />
+      <created>1737777923798</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1737777923798</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +253,7 @@
     <MESSAGE value="HTML 5 APIs (canvas, svg, geo-location)" />
     <MESSAGE value="mini project" />
     <MESSAGE value="Type of CSS approaches - Inline, Internal, and External." />
-    <option name="LAST_COMMIT_MESSAGE" value="Type of CSS approaches - Inline, Internal, and External." />
+    <MESSAGE value="css selectors and color formats." />
+    <option name="LAST_COMMIT_MESSAGE" value="css selectors and color formats." />
   </component>
 </project>

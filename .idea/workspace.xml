@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Text Styling" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Text Styling">
+      <change afterPath="$PROJECT_DIR$/260-basic-box-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/262-border-visualization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/264-multiple-boxes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +76,7 @@
       <workItem from="1736910031547" duration="8694000" />
       <workItem from="1737170120394" duration="7067000" />
       <workItem from="1737774408949" duration="362000" />
-      <workItem from="1737774899911" duration="3966000" />
+      <workItem from="1737774899911" duration="4770000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -225,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737778896200</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Text Styling">
+      <option name="closed" value="true" />
+      <created>1737778910070</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1737778910070</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

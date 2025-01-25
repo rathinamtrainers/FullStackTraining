@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Text Styling">
-      <change afterPath="$PROJECT_DIR$/260-basic-box-model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/262-border-visualization.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/264-multiple-boxes.html" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Box Modelling.">
+      <change afterPath="$PROJECT_DIR$/270-background-color.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/272-background-image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/274-background-gradients.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/276-combining-multiple-backgrounds.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/RajanRayappan/WebstormProjects/fullstack-demo-1",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,6 +53,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RajanRayappan\WebstormProjects\fullstack-demo-1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\RajanRayappan\WebstormProjects\fullstack-demo-1\images" />
       <recent name="C:\Users\RajanRayappan\WebstormProjects\fullstack-demo-1\video" />
@@ -76,7 +81,7 @@
       <workItem from="1736910031547" duration="8694000" />
       <workItem from="1737170120394" duration="7067000" />
       <workItem from="1737774408949" duration="362000" />
-      <workItem from="1737774899911" duration="4770000" />
+      <workItem from="1737774899911" duration="6088000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -238,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737778910070</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Box Modelling.">
+      <option name="closed" value="true" />
+      <created>1737779947114</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1737779947114</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +284,7 @@
     <MESSAGE value="Type of CSS approaches - Inline, Internal, and External." />
     <MESSAGE value="css selectors and color formats." />
     <MESSAGE value="Text Styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Text Styling" />
+    <MESSAGE value="Box Modelling." />
+    <option name="LAST_COMMIT_MESSAGE" value="Box Modelling." />
   </component>
 </project>

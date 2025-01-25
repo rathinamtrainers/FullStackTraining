@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="backgrounds">
-      <change afterPath="$PROJECT_DIR$/280-display-properties.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/282-positioning.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/284-absolute-positioning.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/286-fixed-positioning.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/288-combining-display-positioning.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="display and positioning.">
+      <change afterPath="$PROJECT_DIR$/290-css-basic-mini-project.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +77,7 @@
       <workItem from="1736910031547" duration="8694000" />
       <workItem from="1737170120394" duration="7067000" />
       <workItem from="1737774408949" duration="362000" />
-      <workItem from="1737774899911" duration="7763000" />
+      <workItem from="1737774899911" duration="8078000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -260,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737781427760</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="display and positioning.">
+      <option name="closed" value="true" />
+      <created>1737782925792</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1737782925792</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +298,7 @@
     <MESSAGE value="Text Styling" />
     <MESSAGE value="Box Modelling." />
     <MESSAGE value="backgrounds" />
-    <option name="LAST_COMMIT_MESSAGE" value="backgrounds" />
+    <MESSAGE value="display and positioning." />
+    <option name="LAST_COMMIT_MESSAGE" value="display and positioning." />
   </component>
 </project>

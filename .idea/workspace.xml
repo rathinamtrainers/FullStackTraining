@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="basics project.">
-      <change afterPath="$PROJECT_DIR$/300-Layout-Techniques-float.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/310-Layout-Techniques-clear.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/311-Layout-Techniques-clear2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/320-Layout-Techniques-TwoColumnLayout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/320-Layout-Techniques-clearfix.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/330-Layout-Techniques-FlexBox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/331-Layout-Techniques-FlexBox-Items-JustifyContent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/332-Layout-Techniques-FlexBox-Flex-Direction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/333-Layout-Techniques-FlexBox-Responsive-Layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/334-Layout-Techniques-FlexBox-GridLike.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/334-Layout-Techniques-FlexBox-NavBar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/335-Layout-Techniques-FlexBox-FlexShrink.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/335-Layout-Techniques-FlexBox-alignSelf.html" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Float and Flexbox layout techniques">
+      <change afterPath="$PROJECT_DIR$/340-Layout-Techniques-GridLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/341-Layout-Techniques-GridLayout-auto-rows-cols.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/343-Layout-Techniques-GridLayout-responsive-fractional-units.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/344-Layout-Techniques-GridLayout-advanced.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/345-Layout-Techniques-GridTemplateAreas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/346-Layout-Techniques-GridTemplate-Alignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/346-Layout-Techniques-GridTemplate-ExplicitImplicit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/347-Layout-Techniques-GridTemplate-webpage-layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +83,7 @@
       <workItem from="1737170120394" duration="7067000" />
       <workItem from="1737774408949" duration="362000" />
       <workItem from="1737774899911" duration="10213000" />
-      <workItem from="1738981157207" duration="4736000" />
+      <workItem from="1738981157207" duration="6973000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -282,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737783217202</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Float and Flexbox layout techniques">
+      <option name="closed" value="true" />
+      <created>1738988073457</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1738988073457</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +322,7 @@
     <MESSAGE value="backgrounds" />
     <MESSAGE value="display and positioning." />
     <MESSAGE value="basics project." />
-    <option name="LAST_COMMIT_MESSAGE" value="basics project." />
+    <MESSAGE value="Float and Flexbox layout techniques" />
+    <option name="LAST_COMMIT_MESSAGE" value="Float and Flexbox layout techniques" />
   </component>
 </project>

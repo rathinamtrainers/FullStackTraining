@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complex Webpage Layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas:
+        "header header header"
+        "menu main sidebar"
+        "footer footer footer";
+            grid-template-columns: 150px 1fr 200px;
+            grid-template-rows: 100px 1fr 50px;
+            gap: 10px;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .menu {
+            grid-area: menu;
+            background-color: lightcoral;
+            padding: 10px;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: lightgreen;
+            padding: 10px;
+            line-height: 600px;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">Header</div>
+    <div class="menu">Menu</div>
+    <div class="main">Main Content</div>
+    <div class="sidebar">Sidebar</div>
+    <div class="footer">Footer</div>
+</div>
+</body>
+</html>

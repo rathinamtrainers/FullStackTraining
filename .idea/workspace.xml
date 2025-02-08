@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Float and Flexbox layout techniques">
-      <change afterPath="$PROJECT_DIR$/340-Layout-Techniques-GridLayout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/341-Layout-Techniques-GridLayout-auto-rows-cols.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/343-Layout-Techniques-GridLayout-responsive-fractional-units.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/344-Layout-Techniques-GridLayout-advanced.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/345-Layout-Techniques-GridTemplateAreas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/346-Layout-Techniques-GridTemplate-Alignment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/346-Layout-Techniques-GridTemplate-ExplicitImplicit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/347-Layout-Techniques-GridTemplate-webpage-layout.html" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Grid Layout">
+      <change afterPath="$PROJECT_DIR$/350-Layout-Techniques-Responsive-Layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/351-Layout-Techniques-Responsive-NavBar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +77,7 @@
       <workItem from="1737170120394" duration="7067000" />
       <workItem from="1737774408949" duration="362000" />
       <workItem from="1737774899911" duration="10213000" />
-      <workItem from="1738981157207" duration="6973000" />
+      <workItem from="1738981157207" duration="7980000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -285,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738988073457</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Grid Layout">
+      <option name="closed" value="true" />
+      <created>1738990158583</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1738990158583</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +325,7 @@
     <MESSAGE value="display and positioning." />
     <MESSAGE value="basics project." />
     <MESSAGE value="Float and Flexbox layout techniques" />
-    <option name="LAST_COMMIT_MESSAGE" value="Float and Flexbox layout techniques" />
+    <MESSAGE value="Grid Layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grid Layout" />
   </component>
 </project>

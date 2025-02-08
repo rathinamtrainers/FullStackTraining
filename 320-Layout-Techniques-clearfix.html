@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clearfix Example</title>
+    <style>
+        .container {
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .box {
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: salmon;
+        }
+    </style>
+</head>
+<body>
+<h1>Clearfix Example</h1>
+<div class="container clearfix">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+<p>The container wraps the floated boxes because of the clearfix hack.</p>
+</body>
+</html>

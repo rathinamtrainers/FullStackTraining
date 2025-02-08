@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Align-Self Example</title>
+    <style>
+        .container {
+            display: flex;
+            height: 300px;
+            background-color: lightyellow;
+            align-items: flex-start; /* Default for all items */
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: lightgreen;
+        }
+
+        .item1 {
+            align-self: center; /* Overrides align-items */
+        }
+
+        .item2 {
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item">Start</div>
+    <div class="item item1">Center</div>
+    <div class="item item2">End</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two-Column Layout</title>
+    <style>
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .column {
+            float: left;
+            width: 48%;
+            margin: 1%;
+            padding: 10px;
+            background-color: lightblue;
+            box-sizing: border-box;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<h1>Two-Column Layout</h1>
+<div class="container clearfix">
+    <div class="column">
+        <h2>Column 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra nulla id libero cursus, nec interdum justo pretium.</p>
+    </div>
+    <div class="column">
+        <h2>Column 2</h2>
+        <p>Nulla facilisi. Quisque id urna nec dolor gravida malesuada. In hac habitasse platea dictumst. Donec euismod, urna sed pharetra auctor.</p>
+    </div>
+</div>
+</body>
+</html>

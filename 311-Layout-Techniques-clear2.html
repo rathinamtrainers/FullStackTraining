@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear Left and Right Example</title>
+    <style>
+        .float-left {
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: lightgreen;
+        }
+
+        .float-right {
+            float: right;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: lightblue;
+        }
+
+        .clear-left {
+            clear: left;
+        }
+
+        .clear-right {
+            clear: right;
+        }
+    </style>
+</head>
+<body>
+<h1>Clear Left and Right Example</h1>
+
+<div class="float-left">Box 1 (Left)</div>
+<div class="float-left">Box 2 (Left)</div>
+
+<div class="clear-left"></div> <!-- This forces the next element below left-floated elements -->
+<p>This paragraph is below the left-floated elements.</p>
+
+<div class="float-right">Box 3 (Right)</div>
+<div class="float-right">Box 4 (Right)</div>
+
+<div class="clear-right"></div> <!-- This forces the next element below right-floated elements -->
+<p>This paragraph is below the right-floated elements.</p>
+
+</body>
+</html>

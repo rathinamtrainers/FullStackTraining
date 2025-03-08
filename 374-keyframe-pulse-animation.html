@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pulse Animation</title>
+    <style>
+        .pulse-button {
+            padding: 15px 30px;
+            background-color: lightblue;
+            color: black;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                background-color: lightblue;
+            }
+            50% {
+                transform: scale(1.2);
+                background-color: blue;
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+<button class="pulse-button">Pulse Button</button>
+</body>
+</html>
+
+

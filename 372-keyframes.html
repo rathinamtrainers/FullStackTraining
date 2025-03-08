@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keyframe Animation</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightgreen;
+            margin: 50px auto;
+            animation: move-box 3s infinite;
+        }
+
+        @keyframes move-box {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(200px);
+                background-color: lightblue;
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>
+
+

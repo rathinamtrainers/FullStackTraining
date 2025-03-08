@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Carousel</title>
+  <style>
+    .carousel {
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+      border: 2px solid #333;
+      margin: 50px auto;
+      position: relative;
+    }
+
+    .images {
+      display: flex;
+      animation: slide 10s infinite;
+    }
+
+    .images img {
+      width: 300px;
+      height: 200px;
+    }
+
+    @keyframes slide {
+      0%, 20% {
+        transform: translateX(0);
+      }
+      25%, 45% {
+        transform: translateX(-300px);
+      }
+      50%, 70% {
+        transform: translateX(-600px);
+      }
+      75%, 100% {
+        transform: translateX(-900px);
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="carousel">
+  <div class="images">
+    <img src="https://www.shutterstock.com/shutterstock/photos/2436501577/display_1500/stock-photo-empty-street-at-the-nice-and-beautyful-garden-during-the-sunrise-2436501577.jpg" alt="Slide 1">
+    <img src="https://c.pxhere.com/photos/49/5f/clouds_environment_evening_lake_landscape_nature_outdoors_reflection-1476989.jpg!d" alt="Slide 2">
+    <img src="https://publicdomainarchive.com/wp-content/uploads/2016/01/public-domain-images-free-stock-photos-004-1000x667.jpg" alt="Slide 3">
+    <img src="https://www.shutterstock.com/shutterstock/photos/2274515245/display_1500/stock-photo-watercolor-paintings-landscape-with-flowers-morning-in-the-forest-artwork-fine-art-2274515245.jpg" alt="Slide 4">
+  </div>
+</div>
+</body>
+</html>
+
+

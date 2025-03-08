@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carousel with Buttons</title>
+    <style>
+        .carousel {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border: 2px solid #333;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .images {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .images img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .controls button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="carousel">
+    <div class="images" id="carousel-images">
+        <img src="https://www.shutterstock.com/shutterstock/photos/2436501577/display_1500/stock-photo-empty-street-at-the-nice-and-beautyful-garden-during-the-sunrise-2436501577.jpg" alt="Slide 1">
+        <img src="https://c.pxhere.com/photos/49/5f/clouds_environment_evening_lake_landscape_nature_outdoors_reflection-1476989.jpg!d" alt="Slide 2">
+        <img src="https://publicdomainarchive.com/wp-content/uploads/2016/01/public-domain-images-free-stock-photos-004-1000x667.jpg" alt="Slide 3">
+        <img src="https://www.shutterstock.com/shutterstock/photos/2274515245/display_1500/stock-photo-watercolor-paintings-landscape-with-flowers-morning-in-the-forest-artwork-fine-art-2274515245.jpg" alt="Slide 4">
+
+    </div>
+    <div class="controls">
+        <button onclick="prevSlide()">&#9664;</button>
+        <button onclick="nextSlide()">&#9654;</button>
+    </div>
+</div>
+
+<script>
+    const images = document.getElementById("carousel-images");
+    let index = 0;
+
+    function nextSlide() {
+        index = (index + 1) % 4;
+        images.style.transform = `translateX(-${index * 300}px)`;
+    }
+
+    function prevSlide() {
+        index = (index - 1 + 4) % 4;
+        images.style.transform = `translateX(-${index * 300}px)`;
+    }
+</script>
+</body>
+</html>
+
+

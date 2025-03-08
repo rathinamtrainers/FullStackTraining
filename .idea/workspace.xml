@@ -7,10 +7,16 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Responsive Design">
-      <change afterPath="$PROJECT_DIR$/361-css-variables-basics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/362-css-variables-lightdark-modes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/363-css-variables-multiple-themes.html" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="CSS Variables - Multiple Themes">
+      <change afterPath="$PROJECT_DIR$/371-transitions-hover-effect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/372-keyframes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/373-keyframe-loading-spinner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/373-keyframe-vertical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/374-keyframe-pulse-animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/375-keyframe-animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/376-keyframe-loading-spinner-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/377-image-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/378-image-carosel-buttons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +89,7 @@
       <workItem from="1737774899911" duration="10213000" />
       <workItem from="1738981157207" duration="9067000" />
       <workItem from="1739689447916" duration="16000" />
-      <workItem from="1741403722546" duration="1646000" />
+      <workItem from="1741403722546" duration="5173000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -301,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738991197894</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="CSS Variables - Multiple Themes">
+      <option name="closed" value="true" />
+      <created>1741407884931</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1741407884931</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +355,7 @@
     <MESSAGE value="Float and Flexbox layout techniques" />
     <MESSAGE value="Grid Layout" />
     <MESSAGE value="Responsive Design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive Design" />
+    <MESSAGE value="CSS Variables - Multiple Themes" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS Variables - Multiple Themes" />
   </component>
 </project>

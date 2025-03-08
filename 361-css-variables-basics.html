@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --primary-color: #333;
+            --secondary-color: #555;
+            --background-color: #f4f4f4;
+            --padding: 10px;
+            --font-size: 16px;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--primary-color);
+            font-size: var(--font-size);
+            padding: var(--padding);
+        }
+
+        h1 {
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to CSS Variables</h1>
+<p>This is a demonstration of using CSS variables.</p>
+</body>
+</html>

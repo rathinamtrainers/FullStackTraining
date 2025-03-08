@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Light and Dark Mode</title>
+    <style>
+        :root {
+            --primary-color: #333;
+            --background-color: #ffffff;
+            --button-color: #007bff;
+            --button-text-color: #ffffff;
+        }
+
+        .dark-mode {
+            --primary-color: #ffffff;
+            --background-color: #333333;
+            --button-color: #555555;
+            --button-text-color: #ffffff;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--primary-color);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            background-color: var(--button-color);
+            color: var(--button-text-color);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+<h1>Light and Dark Mode Theming</h1>
+<p>Click the button to toggle between light and dark modes.</p>
+<button onclick="toggleTheme()">Toggle Theme</button>
+
+<script>
+    function toggleTheme() {
+        document.body.classList.toggle('dark-mode');
+    }
+</script>
+</body>
+</html>

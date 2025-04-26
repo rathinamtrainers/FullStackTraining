@@ -7,18 +7,7 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="CSS Variables - Multiple Themes">
-      <change afterPath="$PROJECT_DIR$/371-transitions-hover-effect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/372-keyframes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/373-keyframe-loading-spinner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/373-keyframe-vertical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/374-keyframe-pulse-animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/375-keyframe-animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/376-keyframe-loading-spinner-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/377-image-carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/378-image-carosel-buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="CSS Variables - Multiple Themes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +79,7 @@
       <workItem from="1738981157207" duration="9067000" />
       <workItem from="1739689447916" duration="16000" />
       <workItem from="1741403722546" duration="5173000" />
+      <workItem from="1745635103556" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />

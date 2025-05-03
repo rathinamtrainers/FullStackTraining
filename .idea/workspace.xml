@@ -7,8 +7,13 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="26-Apr-2025 - Conditions and Loops.">
-      <change afterPath="$PROJECT_DIR$/src/javascript/070-function-intro.js" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="26-Apr-2025 - Functions">
+      <change afterPath="$PROJECT_DIR$/src/javascript/074-function-area-circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/075-function-factorial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/076-function-array-manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/077-function-greeting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/078-function-temperature-conversion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +73,14 @@
     "Node.js.064-prj-multiplication-table.js.executor": "Run",
     "Node.js.066-prj-count-sum.js.executor": "Run",
     "Node.js.067-prj-guessing-game.js.executor": "Run",
+    "Node.js.070-function-intro.js.executor": "Run",
+    "Node.js.071-function-parameters.js.executor": "Run",
+    "Node.js.072-function-add2nos.js.executor": "Run",
+    "Node.js.073-function-arrows.js.executor": "Run",
+    "Node.js.074-function-area-circle.js.executor": "Run",
+    "Node.js.075-function-factorial.js.executor": "Run",
+    "Node.js.076-function-array-manipulation.js.executor": "Run",
+    "Node.js.077-function-greeting.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -96,29 +109,29 @@
       <recent name="C:\Users\RajanRayappan\WebstormProjects\fullstack-demo-1\audio" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.073-function-arrows.js">
-    <configuration name="zzz-tester.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FullStackTraining/src/javascript/zzz-tester.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="Node.js.078-function-temperature-conversion.js">
+    <configuration name="074-function-area-circle.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/074-function-area-circle.js" working-dir="$PROJECT_DIR$/src/javascript">
       <method v="2" />
     </configuration>
-    <configuration name="070-function-intro.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/070-function-intro.js" working-dir="$PROJECT_DIR$/src/javascript">
+    <configuration name="075-function-factorial.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/075-function-factorial.js" working-dir="$PROJECT_DIR$/src/javascript">
       <method v="2" />
     </configuration>
-    <configuration name="071-function-parameters.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/071-function-parameters.js" working-dir="$PROJECT_DIR$/src/javascript">
+    <configuration name="076-function-array-manipulation.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/076-function-array-manipulation.js" working-dir="$PROJECT_DIR$/src/javascript">
       <method v="2" />
     </configuration>
-    <configuration name="072-function-add2nos.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/072-function-add2nos.js" working-dir="$PROJECT_DIR$/src/javascript">
+    <configuration name="077-function-greeting.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/077-function-greeting.js" working-dir="$PROJECT_DIR$/src/javascript">
       <method v="2" />
     </configuration>
-    <configuration name="073-function-arrows.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/073-function-arrows.js" working-dir="$PROJECT_DIR$/src/javascript">
+    <configuration name="078-function-temperature-conversion.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/078-function-temperature-conversion.js" working-dir="$PROJECT_DIR$/src/javascript">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.073-function-arrows.js" />
-        <item itemvalue="Node.js.072-function-add2nos.js" />
-        <item itemvalue="Node.js.071-function-parameters.js" />
-        <item itemvalue="Node.js.070-function-intro.js" />
-        <item itemvalue="JavaScript Debug.zzz-tester.html" />
+        <item itemvalue="Node.js.078-function-temperature-conversion.js" />
+        <item itemvalue="Node.js.077-function-greeting.js" />
+        <item itemvalue="Node.js.076-function-array-manipulation.js" />
+        <item itemvalue="Node.js.075-function-factorial.js" />
+        <item itemvalue="Node.js.074-function-area-circle.js" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +153,8 @@
       <workItem from="1741403722546" duration="5173000" />
       <workItem from="1745635103556" duration="7000" />
       <workItem from="1745635175062" duration="1483000" />
-      <workItem from="1745636787919" duration="6292000" />
+      <workItem from="1745636787919" duration="7798000" />
+      <workItem from="1746286346082" duration="790000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -398,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745643276242</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="26-Apr-2025 - Functions">
+      <option name="closed" value="true" />
+      <created>1745643605269</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1745643605269</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed border attribute in table as it is deprecated." />
     <MESSAGE value="Form Demo" />
     <MESSAGE value="Semantics demo" />
     <MESSAGE value="Multimedia - audio, video, iframe (youtube, google maps), webpage background image." />
@@ -441,7 +462,8 @@
     <MESSAGE value="26-Apr-2025 - Session files." />
     <MESSAGE value="26-Apr-2025 - Arrays" />
     <MESSAGE value="26-Apr-2025 - Conditions and Loops." />
-    <option name="LAST_COMMIT_MESSAGE" value="26-Apr-2025 - Conditions and Loops." />
+    <MESSAGE value="26-Apr-2025 - Functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="26-Apr-2025 - Functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -449,13 +471,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/javascript/021-datatypes.js</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/javascript/022-type-casting.js</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

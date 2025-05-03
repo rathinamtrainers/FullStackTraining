@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const product = {
+        id: 101,
+        details: {
+            name: "Laptop",
+            price: 60000
+        }
+    };
+
+    const {
+        details: { name, price }
+    } = product;
+
+    console.log(`Product: ${name}, Price: ${price}`);
+</script>
+
+</body>
+</html>
+
+

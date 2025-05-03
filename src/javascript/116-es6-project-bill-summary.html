@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    function billSummary(customer = "Guest", {item, price} = {item: "Unknown", price: 0}) {
+        const message = `
+      Hello ${customer},
+      Thank you for buying ${item}.
+      Total Bill: ${price}
+    `;
+        console.log(message);
+    }
+
+    const product = { item: "USB Drive", price: 799 };
+
+    billSummary("Meena", product);
+    billSummary(); // Using default values
+</script>
+
+</body>
+</html>

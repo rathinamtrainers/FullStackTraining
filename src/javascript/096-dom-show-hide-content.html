@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="text">This text can be hidden or shown.</p>
+<button onclick="toggleVisibility()">Toggle Visibility</button>
+<script>
+    function toggleVisibility() {
+        let textElement = document.getElementById("text");
+        if (textElement.style.display === "none") {
+            textElement.style.display = "block";
+        } else {
+            textElement.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>

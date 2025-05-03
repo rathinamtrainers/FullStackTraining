@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<p id="text">Click the button to highlight me.</p>
+<button onclick="toggleHighlight()">Toggle Highlight</button>
+<script>
+    function toggleHighlight() {
+        let textElement = document.getElementById("text");
+        textElement.classList.toggle("highlight");
+    }
+</script>
+</body>
+</html>

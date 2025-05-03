@@ -7,17 +7,14 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="03-May-2025 - Functions">
-      <change afterPath="$PROJECT_DIR$/src/javascript/080-objects-demo1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/081-objects-access-properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/082-objects-attributes-add-update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/083-objects-attributes-delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/084-objects-nested.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/085-objects-this.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/086-objects-calculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/086-objects-nested-arrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/087-objects-this-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/088-objects-student-database.js" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="03-May-2025 - Objects">
+      <change afterPath="$PROJECT_DIR$/src/javascript/090-dom-select-by-id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/091-dom-querySelector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/092-dom-modify-element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/093-dom-update-css-style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/094-dom-css-add-remove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/095-dom-real-time-input-display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/096-dom-show-hide-content.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -170,7 +167,7 @@
       <workItem from="1745635103556" duration="7000" />
       <workItem from="1745635175062" duration="1483000" />
       <workItem from="1745636787919" duration="7798000" />
-      <workItem from="1746286346082" duration="2058000" />
+      <workItem from="1746286346082" duration="3092000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -444,7 +441,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746287224450</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="03-May-2025 - Objects">
+      <option name="closed" value="true" />
+      <created>1746288444343</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1746288444343</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Semantics demo" />
     <MESSAGE value="Multimedia - audio, video, iframe (youtube, google maps), webpage background image." />
     <MESSAGE value="Global Attributes, Metadata, SEO, Search Engines." />
     <MESSAGE value="External, Internal, and Anchor Links." />
@@ -487,7 +491,8 @@
     <MESSAGE value="26-Apr-2025 - Conditions and Loops." />
     <MESSAGE value="26-Apr-2025 - Functions" />
     <MESSAGE value="03-May-2025 - Functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="03-May-2025 - Functions" />
+    <MESSAGE value="03-May-2025 - Objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="03-May-2025 - Objects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

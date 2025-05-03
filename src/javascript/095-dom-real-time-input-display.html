@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<label for="name">Enter your name:</label>
+<input type="text" id="name" oninput="updateName()" />
+<p id="display">Hello, Guest!</p>
+<script>
+    function updateName() {
+        let inputElement = document.getElementById("name");
+        let displayElement = document.getElementById("display");
+        displayElement.textContent = `Hello, ${inputElement.value || "Guest"}!`;
+    }
+</script>
+</body>
+</html>
+

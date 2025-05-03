@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="hoverBtn">Hover Over Me</button>
+<input type="text" id="textInput" placeholder="Type here">
+
+<script>
+    const hoverBtn = document.getElementById('hoverBtn');
+    const input = document.getElementById('textInput');
+
+    hoverBtn.addEventListener('mouseover', () => {
+        console.log("Mouse is over the button!");
+    });
+
+    input.addEventListener('input', (event) => {
+        console.log("You typed: " + event.target.value);
+    });
+</script>
+
+</body>
+</html>
+

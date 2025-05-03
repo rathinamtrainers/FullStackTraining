@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="clickBtn">Click Me</button>
+<button id="removeBtn">Remove Click Handler</button>
+
+<script>
+    const clickBtn = document.getElementById('clickBtn');
+    const removeBtn = document.getElementById('removeBtn');
+
+    function handleClick() {
+        alert('Clicked!');
+    }
+
+    clickBtn.addEventListener('click', handleClick);
+
+    removeBtn.addEventListener('click', () => {
+        clickBtn.removeEventListener('click', handleClick);
+        alert('Event listener removed');
+    });
+</script>
+
+</body>
+</html>

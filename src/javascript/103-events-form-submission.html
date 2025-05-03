@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="myForm">
+    <input type="text" name="username" placeholder="Enter name" required>
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    const form = document.getElementById('myForm');
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevents page refresh
+        const username = form.elements.username.value;
+        alert("Form submitted by: " + username);
+    });
+</script>
+
+</body>
+</html>
+
+

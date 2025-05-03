@@ -8,13 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="03-May-2025 - Objects">
-      <change afterPath="$PROJECT_DIR$/src/javascript/090-dom-select-by-id.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/091-dom-querySelector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/092-dom-modify-element.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/093-dom-update-css-style.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/094-dom-css-add-remove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/095-dom-real-time-input-display.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/096-dom-show-hide-content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/100-events-add-listeners.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/101-events-handle-multiple-events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/102-events-eventObject.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +163,7 @@
       <workItem from="1745635103556" duration="7000" />
       <workItem from="1745635175062" duration="1483000" />
       <workItem from="1745636787919" duration="7798000" />
-      <workItem from="1746286346082" duration="3092000" />
+      <workItem from="1746286346082" duration="3883000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -449,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746288444343</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="03-May-2025 - Objects">
+      <option name="closed" value="true" />
+      <created>1746289660266</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1746289660266</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter App</title>
+    <style>
+        body { font-family: Arial; text-align: center; margin-top: 50px; }
+        h1 { font-size: 50px; }
+        button { margin: 5px; padding: 10px 20px; font-size: 18px; }
+    </style>
+</head>
+<body>
+
+<h2>Counter App</h2>
+<h1 id="counter">0</h1>
+
+<button onclick="increment()">+ Increment</button>
+<button onclick="decrement()">- Decrement</button>
+<button onclick="reset()">Reset</button>
+
+<script>
+    let count = 0;
+    const counterDisplay = document.getElementById("counter");
+
+    function updateDisplay() {
+        counterDisplay.textContent = count;
+    }
+
+    function increment() {
+        count++;
+        updateDisplay();
+    }
+
+    function decrement() {
+        if (count > 0) {
+            count--;
+            updateDisplay();
+        } else {
+            alert("Counter can't go below 0!");
+        }
+    }
+
+    function reset() {
+        count = 0;
+        updateDisplay();
+    }
+</script>
+
+</body>
+</html>

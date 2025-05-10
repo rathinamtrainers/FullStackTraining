@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const studentJSON = `
+    {
+      "name": "Kumar",
+      "grades": {
+        "math": 95,
+        "science": 88,
+        "english": 90
+      }
+    }
+  `;
+
+    const student = JSON.parse(studentJSON);
+    const result = `Student: ${student.name}
+Math: ${student.grades.math}
+Science: ${student.grades.science}
+English: ${student.grades.english}`;
+
+    console.log(result);
+</script>
+
+</body>
+</html>
+
+

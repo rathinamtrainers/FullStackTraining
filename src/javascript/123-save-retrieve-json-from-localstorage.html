@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const product = {
+        id: 1,
+        name: "Laptop",
+        price: 50000
+    };
+
+    // Save to localStorage
+    localStorage.setItem("product", JSON.stringify(product));
+
+    // Retrieve and parse
+    const stored = localStorage.getItem("product");
+    const parsed = JSON.parse(stored);
+
+    console.log(parsed.name);  // Laptop
+</script>
+
+</body>
+</html>

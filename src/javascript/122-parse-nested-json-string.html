@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const jsonData = `
+    {
+      "employee": {
+        "id": 101,
+        "name": "Anita",
+        "department": {
+          "name": "HR",
+          "floor": 5
+        }
+      }
+    }
+  `;
+
+    const obj = JSON.parse(jsonData);
+    console.log(obj.employee.name);           // Anita
+    console.log(obj.employee.department.name); // HR
+</script>
+
+</body>
+</html>

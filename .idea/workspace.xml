@@ -7,10 +7,8 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="10-May-2025 - Closures">
-      <change afterPath="$PROJECT_DIR$/src/javascript/160-Scopes-Global.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/161-Scopes-Function.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="10-May-2025 - Scopes">
+      <change afterPath="$PROJECT_DIR$/src/javascript/165-Hoisting-Function.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +166,7 @@
       <workItem from="1745635175062" duration="1483000" />
       <workItem from="1745636787919" duration="7798000" />
       <workItem from="1746286346082" duration="5635000" />
-      <workItem from="1746846313739" duration="6240000" />
+      <workItem from="1746846313739" duration="6546000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -514,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746852238486</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="10-May-2025 - Scopes">
+      <option name="closed" value="true" />
+      <created>1746852728948</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1746852728948</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mini project" />
     <MESSAGE value="Type of CSS approaches - Inline, Internal, and External." />
     <MESSAGE value="css selectors and color formats." />
     <MESSAGE value="Text Styling" />
@@ -557,7 +562,8 @@
     <MESSAGE value="10-May-2025 - Error Handling and Debugging." />
     <MESSAGE value="10-May-2025 - Todo App and Counter App." />
     <MESSAGE value="10-May-2025 - Closures" />
-    <option name="LAST_COMMIT_MESSAGE" value="10-May-2025 - Closures" />
+    <MESSAGE value="10-May-2025 - Scopes" />
+    <option name="LAST_COMMIT_MESSAGE" value="10-May-2025 - Scopes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

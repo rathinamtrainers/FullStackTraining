@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    try {
+        let result = 10 / 0;
+        console.log("Result:", result);
+
+        let user = undefined;
+        console.log(user.name); // Error: cannot read 'name' of undefined
+    } catch (error) {
+        console.error("An error occurred:", error.message);
+    }
+</script>
+
+</body>
+</html>
+
+

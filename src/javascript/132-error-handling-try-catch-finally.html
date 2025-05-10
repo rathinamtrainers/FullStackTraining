@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    try {
+        console.log("Trying risky operation...");
+        throw new Error("Something went wrong");
+    } catch (e) {
+        console.warn("Caught error:", e.message);
+    } finally {
+        console.log("This always runs (cleanup, closing resources, etc.)");
+    }
+</script>
+
+</body>
+</html>
+
+

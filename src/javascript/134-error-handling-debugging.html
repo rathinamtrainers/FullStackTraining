@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const userInput = "abc";
+
+    function convertToNumber(input) {
+        console.log("Converting:", input);
+        const result = Number(input);
+        if (isNaN(result)) {
+            throw new Error("Invalid number format");
+        }
+        return result;
+    }
+
+    try {
+        const num = convertToNumber(userInput);
+        console.log("Converted Number:", num);
+    } catch (error) {
+        console.error("Conversion Error:", error.message);
+    }
+</script>
+
+</body>
+</html>

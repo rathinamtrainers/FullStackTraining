@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    function createBankAccount(initialBalance) {
+        let balance = initialBalance;
+
+        return {
+            deposit(amount) {
+                balance += amount;
+                console.log(`Deposited ${amount}. New balance: ${balance}`);
+            },
+            withdraw(amount) {
+                if (amount > balance) {
+                    console.log("Insufficient funds!");
+                } else {
+                    balance -= amount;
+                    console.log(`Withdrew ${amount}. New balance: ${balance}`);
+                }
+            },
+            getBalance() {
+                return balance;
+            }
+        };
+    }
+
+    const account = createBankAccount(1000);
+    account.deposit(500);   // Deposited ₹500. New balance: ₹1500
+    account.withdraw(300);  // Withdrew ₹300. New balance: ₹1200
+    console.log(account.balance); // undefined (private!)
+</script>
+
+</body>
+</html>

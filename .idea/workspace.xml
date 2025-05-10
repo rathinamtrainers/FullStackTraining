@@ -7,9 +7,11 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="10-May-2025 - Error Handling and Debugging.">
-      <change afterPath="$PROJECT_DIR$/src/javascript/140-todo-app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/141-counter-app.html" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="10-May-2025 - Todo App and Counter App.">
+      <change afterPath="$PROJECT_DIR$/src/javascript/150-closure-basics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/151-closure-data-privacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/152-closure-counter-factory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/153-closure-event-handlers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +169,7 @@
       <workItem from="1745635175062" duration="1483000" />
       <workItem from="1745636787919" duration="7798000" />
       <workItem from="1746286346082" duration="5635000" />
-      <workItem from="1746846313739" duration="4386000" />
+      <workItem from="1746846313739" duration="5546000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -489,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746849538911</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="10-May-2025 - Todo App and Counter App.">
+      <option name="closed" value="true" />
+      <created>1746850884106</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1746850884106</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Form Validations" />
     <MESSAGE value="HTML 5 APIs (canvas, svg, geo-location)" />
     <MESSAGE value="mini project" />
     <MESSAGE value="Type of CSS approaches - Inline, Internal, and External." />
@@ -532,7 +541,8 @@
     <MESSAGE value="03-May-2025 - ES6 features - template string, default value in functions, destructuring arrays &amp; objects into variables." />
     <MESSAGE value="10-May-2025 - JSON - parsing" />
     <MESSAGE value="10-May-2025 - Error Handling and Debugging." />
-    <option name="LAST_COMMIT_MESSAGE" value="10-May-2025 - Error Handling and Debugging." />
+    <MESSAGE value="10-May-2025 - Todo App and Counter App." />
+    <option name="LAST_COMMIT_MESSAGE" value="10-May-2025 - Todo App and Counter App." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

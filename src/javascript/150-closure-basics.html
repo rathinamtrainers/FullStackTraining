@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    function outer() {
+        let counter = 0;
+
+        function inner() {
+            counter++;
+            console.log("Counter:", counter);
+        }
+
+        return inner;
+    }
+
+    const countUp = outer(); // returns the inner function
+    countUp(); // Counter: 1
+    countUp(); // Counter: 2
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="buttons"></div>
+
+<script>
+    for (let i = 1; i <= 3; i++) {
+        const btn = document.createElement("button");
+        btn.textContent = `Button ${i}`;
+        btn.addEventListener("click", function () {
+            alert(`You clicked Button ${i}`);
+        });
+        document.getElementById("buttons").appendChild(btn);
+    }
+</script>
+
+</body>
+</html>

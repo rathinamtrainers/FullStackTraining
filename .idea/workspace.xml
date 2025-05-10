@@ -7,12 +7,8 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="10-May-2025 - Todo App and Counter App.">
-      <change afterPath="$PROJECT_DIR$/src/javascript/150-closure-basics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/151-closure-data-privacy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/152-closure-counter-factory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/153-closure-event-handlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="10-May-2025 - Closures">
+      <change afterPath="$PROJECT_DIR$/src/javascript/155-closure-visualize.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,10 +119,7 @@
       <recent name="C:\Users\RajanRayappan\WebstormProjects\fullstack-demo-1\audio" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.115-es6-default-parameters.js">
-    <configuration name="088-objects-student-database.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/088-objects-student-database.js" working-dir="$PROJECT_DIR$/src/javascript">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.155-closure-visualize.js">
     <configuration name="110-es6-template-literals.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/110-es6-template-literals.js" working-dir="$PROJECT_DIR$/src/javascript">
       <method v="2" />
     </configuration>
@@ -139,13 +132,16 @@
     <configuration name="115-es6-default-parameters.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/115-es6-default-parameters.js" working-dir="$PROJECT_DIR$/src/javascript">
       <method v="2" />
     </configuration>
+    <configuration name="155-closure-visualize.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/155-closure-visualize.js" working-dir="$PROJECT_DIR$/src/javascript">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.155-closure-visualize.js" />
         <item itemvalue="Node.js.115-es6-default-parameters.js" />
         <item itemvalue="Node.js.113-es6-destructuring-objects.js" />
         <item itemvalue="Node.js.112-es6-destructuring-arrays.js" />
         <item itemvalue="Node.js.110-es6-template-literals.js" />
-        <item itemvalue="Node.js.088-objects-student-database.js" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +165,7 @@
       <workItem from="1745635175062" duration="1483000" />
       <workItem from="1745636787919" duration="7798000" />
       <workItem from="1746286346082" duration="5635000" />
-      <workItem from="1746846313739" duration="5546000" />
+      <workItem from="1746846313739" duration="5772000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -499,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746850884106</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="10-May-2025 - Closures">
+      <option name="closed" value="true" />
+      <created>1746852035605</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1746852035605</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HTML 5 APIs (canvas, svg, geo-location)" />
     <MESSAGE value="mini project" />
     <MESSAGE value="Type of CSS approaches - Inline, Internal, and External." />
     <MESSAGE value="css selectors and color formats." />
@@ -542,7 +545,8 @@
     <MESSAGE value="10-May-2025 - JSON - parsing" />
     <MESSAGE value="10-May-2025 - Error Handling and Debugging." />
     <MESSAGE value="10-May-2025 - Todo App and Counter App." />
-    <option name="LAST_COMMIT_MESSAGE" value="10-May-2025 - Todo App and Counter App." />
+    <MESSAGE value="10-May-2025 - Closures" />
+    <option name="LAST_COMMIT_MESSAGE" value="10-May-2025 - Closures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

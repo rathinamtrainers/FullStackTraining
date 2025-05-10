@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    function testScope() {
+        let message = "Inside function";
+        console.log(message); // OK
+    }
+
+    testScope();
+    console.log(message); // ❌ ReferenceError
+</script>
+
+</body>
+</html>

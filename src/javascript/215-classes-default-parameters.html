@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    class Rectangle {
+        constructor(width = 1, height = 1) {
+            this.width = width;
+            this.height = height;
+        }
+
+        getArea() {
+            return this.width * this.height;
+        }
+    }
+
+    const box = new Rectangle(4, 5);
+    console.log("Area:", box.getArea()); // 20
+</script>
+
+</body>
+</html>

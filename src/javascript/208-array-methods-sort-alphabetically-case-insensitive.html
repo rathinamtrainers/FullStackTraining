@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const cart = [
+        { name: "Laptop", price: 45000 },
+        { name: "Mouse", price: 1500 },
+        { name: "Keyboard", price: 3000 }
+    ];
+
+    const totalPrice = cart.reduce((sum, item) => sum + item.price, 0);
+    console.log("Total:", totalPrice); // 49500
+
+    const hasExpensiveItem = cart.some(item => item.price > 40000);
+    console.log("Contains high-end product?", hasExpensiveItem); // true
+</script>
+
+</body>
+</html>

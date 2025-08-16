@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const prices = [100, 250, 400, 150];
+
+    const total = prices.reduce((accumulator, currentValue) => {
+        return accumulator + currentValue;
+    }, 0);
+
+    console.log("Total Price:", total); // 900
+</script>
+
+</body>
+</html>

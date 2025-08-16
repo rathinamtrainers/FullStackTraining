@@ -1,0 +1,19 @@
+<!-- Sort numbers in ascending order -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const scores = [55, 100, 34, 78, 12];
+    ascending = scores.slice().sort((a, b) => a - b); // ascending
+    console.log("Ascending:", ascending); // [12, 34, 55, 78, 100]
+
+    descending = scores.slice().sort((a, b) => b - a); // descending
+    console.log("Descending:", descending); // [100, 78, 55, 34, 12]
+
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,17 @@
+<!-- Find all matching items in Array -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const passwords = ["secure123", "pass", "myPassword2024", "1234", "hello1234"];
+
+    const weakPasswords = passwords.filter(pwd => pwd.length < 8);
+
+    console.log("Weak passwords:", weakPasswords);
+    // ["pass", "1234"]
+</script>
+
+</body>
+</html>

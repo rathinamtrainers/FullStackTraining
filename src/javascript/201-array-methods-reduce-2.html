@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const votes = ["yes", "no", "yes", "yes", "no"];
+
+    const results = votes.reduce((count, vote) => {
+        count[vote] = (count[vote] || 0) + 1;
+        return count;
+    }, {});
+
+    console.log(results); // { yes: 3, no: 2 }
+</script>
+
+</body>
+</html>

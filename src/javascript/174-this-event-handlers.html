@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="btn">Click Me</button>
+
+<script>
+    "use strict";
+
+    const btn = document.getElementById("btn");
+
+    btn.addEventListener("click", function () {
+        this.textContent = "Clicked!";
+        console.log(this); // refers to the button
+    });
+</script>
+
+</body>
+</html>
+
+

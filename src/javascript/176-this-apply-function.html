@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    "use strict";
+    function add(a, b) {
+        console.log(this.label + ": " + (a + b));
+    }
+
+    let context = { label: "Sum" };
+    add.apply(context, [10, 20]); // Sum: 30
+
+    context = { label: "Adding 10 and 20" };
+    add.apply(context, [10, 20]); // Sum: 30
+
+</script>
+
+</body>
+</html>
+
+

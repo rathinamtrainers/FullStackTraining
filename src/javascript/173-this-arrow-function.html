@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    "use strict";
+    const user = {
+        name: "Priya",
+        greet: function () {
+            const inner = () => {
+                console.log("Hi " + this.name);
+            };
+            inner();
+        }
+    };
+
+    user.greet(); // Hi Priya
+</script>
+
+</body>
+</html>

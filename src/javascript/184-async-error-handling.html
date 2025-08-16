@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    function fetchData() {
+        return new Promise((_, reject) => {
+            setTimeout(() => {
+                reject("Network error!");
+            }, 10000);
+        });
+    }
+
+    async function load() {
+        try {
+            const data = await fetchData();
+            console.log(data);
+        } catch (err) {
+            console.error("Caught error:", err);
+        }
+    }
+
+    load();
+</script>
+
+</body>
+</html>
+

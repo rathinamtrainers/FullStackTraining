@@ -7,8 +7,26 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="10-May-2025 - Scopes">
-      <change afterPath="$PROJECT_DIR$/src/javascript/165-Hoisting-Function.html" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="10-May-2025 - Hoisting">
+      <change afterPath="$PROJECT_DIR$/src/javascript/170-this-global-context.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/170-this-regular-function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/172-this-inside-object-methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/173-this-arrow-function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/174-this-event-handlers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/175-this-call-function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/176-this-apply-function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/177-this-bind-function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/180-sync-vs-async.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/181-async-callbacks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/182-async-Promises.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/183-async-await.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/184-async-error-handling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/185-async-project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/190-fetch-user-api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/191-fetch-with-async_await.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javascript/192-fetch-country-data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javascript/zzz-tester.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/javascript/zzz-tester.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,75 +57,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.011-index.html.executor": "Debug",
-    "JavaScript Debug.zzz-tester.html.executor": "Run",
-    "Node.js.010-hello.js.executor": "Run",
-    "Node.js.020-variables.js.executor": "Run",
-    "Node.js.021-datatypes.js.executor": "Run",
-    "Node.js.022-type-casting.js.executor": "Debug",
-    "Node.js.023-user-profile.js.executor": "Run",
-    "Node.js.024-operators-1.js.executor": "Run",
-    "Node.js.025-calculator.js.executor": "Run",
-    "Node.js.026-voting.js.executor": "Run",
-    "Node.js.030-string-manipulation-1.js.executor": "Run",
-    "Node.js.050-array-1.js.executor": "Run",
-    "Node.js.051-array-2.js.executor": "Run",
-    "Node.js.052-array-methods.js.executor": "Run",
-    "Node.js.053-array-basic-manipulation.js.executor": "Run",
-    "Node.js.053-array-demo-2.js.executor": "Run",
-    "Node.js.053-array-student-grades.js.executor": "Run",
-    "Node.js.060-condition-switch.js.executor": "Run",
-    "Node.js.060-loops.js.executor": "Run",
-    "Node.js.062-loop-for.js.executor": "Run",
-    "Node.js.063-loop-do-while.js.executor": "Run",
-    "Node.js.063-loop-while.js.executor": "Run",
-    "Node.js.064-prj-grade-checker.js.executor": "Run",
-    "Node.js.064-prj-multiplication-table.js.executor": "Run",
-    "Node.js.066-prj-count-sum.js.executor": "Run",
-    "Node.js.067-prj-guessing-game.js.executor": "Run",
-    "Node.js.070-function-intro.js.executor": "Run",
-    "Node.js.071-function-parameters.js.executor": "Run",
-    "Node.js.072-function-add2nos.js.executor": "Run",
-    "Node.js.073-function-arrows.js.executor": "Run",
-    "Node.js.074-function-area-circle.js.executor": "Run",
-    "Node.js.075-function-factorial.js.executor": "Run",
-    "Node.js.076-function-array-manipulation.js.executor": "Run",
-    "Node.js.077-function-greeting.js.executor": "Run",
-    "Node.js.078-function-temperature-conversion.js.executor": "Run",
-    "Node.js.080-objects-access-properties.js.executor": "Run",
-    "Node.js.080-objects-demo1.js.executor": "Run",
-    "Node.js.082-objects-attributes-add-update.js.executor": "Run",
-    "Node.js.083-objects-attributes-delete.js.executor": "Run",
-    "Node.js.084-objects-nested.js.executor": "Run",
-    "Node.js.084-objects-this.js.executor": "Run",
-    "Node.js.086-objects-calculator.js.executor": "Run",
-    "Node.js.086-objects-nested-arrays.js.executor": "Run",
-    "Node.js.087-objects-this-2.js.executor": "Run",
-    "Node.js.088-objects-student-database.js.executor": "Run",
-    "Node.js.110-es6-template-literals.js.executor": "Run",
-    "Node.js.112-es6-destructuring-arrays.js.executor": "Run",
-    "Node.js.113-es6-destructuring-objects.js.executor": "Run",
-    "Node.js.115-es6-default-parameters.js.executor": "Run",
-    "Node.js.155-closure-visualize.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/dev/WebStorm/FullStackTraining/src/javascript",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.011-index.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.zzz-tester.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.010-hello.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.020-variables.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.021-datatypes.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.022-type-casting.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.023-user-profile.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.024-operators-1.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.025-calculator.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.026-voting.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.030-string-manipulation-1.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.050-array-1.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.051-array-2.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.052-array-methods.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.053-array-basic-manipulation.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.053-array-demo-2.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.053-array-student-grades.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.060-condition-switch.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.060-loops.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.062-loop-for.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.063-loop-do-while.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.063-loop-while.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.064-prj-grade-checker.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.064-prj-multiplication-table.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.066-prj-count-sum.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.067-prj-guessing-game.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.070-function-intro.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.071-function-parameters.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.072-function-add2nos.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.073-function-arrows.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.074-function-area-circle.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.075-function-factorial.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.076-function-array-manipulation.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.077-function-greeting.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.078-function-temperature-conversion.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.080-objects-access-properties.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.080-objects-demo1.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.082-objects-attributes-add-update.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.083-objects-attributes-delete.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.084-objects-nested.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.084-objects-this.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.086-objects-calculator.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.086-objects-nested-arrays.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.087-objects-this-2.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.088-objects-student-database.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.110-es6-template-literals.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.112-es6-destructuring-arrays.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.113-es6-destructuring-objects.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.115-es6-default-parameters.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.155-closure-visualize.js.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/dev/WebStorm/FullStackTraining/src/javascript&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\WebStorm\FullStackTraining\src\javascript" />
@@ -166,7 +184,12 @@
       <workItem from="1745635175062" duration="1483000" />
       <workItem from="1745636787919" duration="7798000" />
       <workItem from="1746286346082" duration="5635000" />
-      <workItem from="1746846313739" duration="6546000" />
+      <workItem from="1746846313739" duration="7623000" />
+      <workItem from="1747414707798" duration="1797000" />
+      <workItem from="1747542163557" duration="600000" />
+      <workItem from="1749656397896" duration="9000" />
+      <workItem from="1753497962262" duration="8966000" />
+      <workItem from="1755312334731" duration="1029000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -520,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746852728948</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="10-May-2025 - Hoisting">
+      <option name="closed" value="true" />
+      <created>1746853319155</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1746853319155</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Type of CSS approaches - Inline, Internal, and External." />
     <MESSAGE value="css selectors and color formats." />
     <MESSAGE value="Text Styling" />
     <MESSAGE value="Box Modelling." />
@@ -563,7 +593,8 @@
     <MESSAGE value="10-May-2025 - Todo App and Counter App." />
     <MESSAGE value="10-May-2025 - Closures" />
     <MESSAGE value="10-May-2025 - Scopes" />
-    <option name="LAST_COMMIT_MESSAGE" value="10-May-2025 - Scopes" />
+    <MESSAGE value="10-May-2025 - Hoisting" />
+    <option name="LAST_COMMIT_MESSAGE" value="10-May-2025 - Hoisting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

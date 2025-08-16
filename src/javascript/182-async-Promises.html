@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const promise = new Promise((resolve, reject) => {
+        let success = false;
+
+        setTimeout(() => {
+            if (success) resolve("Data fetched successfully");
+            else reject("Failed to fetch data");
+        }, 10000);
+    });
+
+    console.log("Start")
+    promise
+        .then(result => console.log("Result:", result))
+        .catch(error => console.error("Error:", error));
+    console.log("End")
+
+</script>
+
+</body>
+</html>
+
+

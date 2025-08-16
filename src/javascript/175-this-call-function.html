@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    "use strict";
+    const car = { name: "Toyota" };
+    const person1 = { name: "Rajan", company: "Rathinam Trainers"}
+    const dog1 = { name: "Danny", breed: "Lab" }
+
+    function showBrand() {
+        console.log(this.name);
+    }
+
+    showBrand.call(car); // Toyota
+    showBrand.call(person1); // Rajan
+    showBrand.call(dog1); // undefined
+
+</script>
+
+</body>
+</html>
+
+

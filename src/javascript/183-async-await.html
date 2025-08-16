@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    function getUser() {
+        return new Promise(resolve => {
+            setTimeout(() => {
+                resolve({ name: "Rajan", age: 30 });
+            }, 10000);
+        });
+    }
+
+    async function showUser() {
+        console.log("Loading user...");
+        const user = await getUser();
+        console.log("User loaded:", user);
+    }
+
+    showUser();
+</script>
+
+</body>
+</html>
+
+

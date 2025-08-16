@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    function fetchData(callback) {
+        setTimeout(() => {
+            console.log("Fetching data...");
+            callback("Data loaded");
+        }, 10000);
+    }
+
+    fetchData(function (result) {
+        console.log("Callback result:", result);
+    });
+</script>
+
+</body>
+</html>
+
+

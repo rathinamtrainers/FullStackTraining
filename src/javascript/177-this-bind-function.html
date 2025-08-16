@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const dog = {
+        sound: "Woof!",
+        speak: function () {
+            console.log(this.sound);
+        }
+    };
+
+    const person1 = {
+        sound: "grrrr"
+    };
+
+    dog.speak();
+
+    const speak = dog.speak.bind(dog);
+    speak(); // Woof!
+
+    const speak3 = dog.speak.bind(person1);
+    speak3(); // Woof!
+
+    const speak2 = dog.speak.bind();
+    speak2(); // Woof!
+</script>
+
+</body>
+</html>
+
+

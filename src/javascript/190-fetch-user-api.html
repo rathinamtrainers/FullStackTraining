@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random User Fetch</title>
+</head>
+<body>
+
+<h2>Random User Info</h2>
+<button onclick="getUser()">Fetch User</button>
+<div id="output"></div>
+
+<script>
+    function getUser() {
+        fetch('https://randomuser.me/api/')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                return response.json();
+            })
+            .then(data => {
+                const user = data.results[0];
+                const html = `
+          <p><strong>Name:</strong> ${user.name.first} ${user.name.last}</p>
+          <p><strong>Email:</strong> ${user.email}</p>
+          <img src="${user.picture.large}" alt="User Picture">
+        `;
+                document.getElementById('output').innerHTML = html;
+            })
+            .catch(error => {
+                console.error("Fetch error:", error);
+                document.getElementById('output').innerHTML = "Failed to fetch user.";
+            });
+    }
+</script>
+
+</body>
+</html>

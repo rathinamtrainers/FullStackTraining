@@ -7,8 +7,8 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="16-aug-2025 session.">
-      <change afterPath="$PROJECT_DIR$/src/nodejs/010-010-hello.js" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Session: 27-Sep-2025 (First program)">
+      <change afterPath="$PROJECT_DIR$/src/nodejs/010-020-debugging-techniques.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
     "JavaScript Debug.zzz-tester.html.executor": "Run",
     "Node.js.010-010-hello.js (1).executor": "Run",
     "Node.js.010-010-hello.js.executor": "Run",
+    "Node.js.010-020-debugging-techniques.js.executor": "Run",
     "Node.js.010-hello.js.executor": "Run",
     "Node.js.020-variables.js.executor": "Run",
     "Node.js.021-datatypes.js.executor": "Run",
@@ -130,19 +131,24 @@
       <recent name="C:\Users\RajanRayappan\WebstormProjects\fullstack-demo-1\audio" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.010-010-hello.js (1)">
+  <component name="RunManager" selected="Node.js.010-020-debugging-techniques.js">
     <configuration name="010-010-hello.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/nodejs/010-010-hello.js" working-dir="$PROJECT_DIR$/src/nodejs">
       <method v="2" />
     </configuration>
     <configuration name="010-010-hello.js" type="NodeJSConfigurationType" temporary="true" application-parameters="Rajan" nameIsGenerated="true" path-to-js-file="010-010-hello.js" working-dir="$PROJECT_DIR$/src/nodejs">
       <method v="2" />
     </configuration>
+    <configuration name="010-020-debugging-techniques.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/nodejs/010-020-debugging-techniques.js" working-dir="$PROJECT_DIR$/src/nodejs">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.010-010-hello.js (1)" />
+      <item itemvalue="Node.js.010-020-debugging-techniques.js" />
       <item itemvalue="Node.js.010-010-hello.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.010-020-debugging-techniques.js" />
         <item itemvalue="Node.js.010-010-hello.js (1)" />
         <item itemvalue="Node.js.010-010-hello.js" />
       </list>
@@ -175,7 +181,7 @@
       <workItem from="1753497962262" duration="8966000" />
       <workItem from="1755312334731" duration="8143000" />
       <workItem from="1756915241594" duration="486000" />
-      <workItem from="1758940821609" duration="5546000" />
+      <workItem from="1758940821609" duration="7231000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -553,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755320307558</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Session: 27-Sep-2025 (First program)">
+      <option name="closed" value="true" />
+      <created>1758947307062</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1758947307062</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Box Modelling." />
     <MESSAGE value="backgrounds" />
     <MESSAGE value="display and positioning." />
     <MESSAGE value="basics project." />
@@ -596,7 +609,8 @@
     <MESSAGE value="10-May-2025 - Hoisting" />
     <MESSAGE value="before 15-aug-2025 code." />
     <MESSAGE value="16-aug-2025 session." />
-    <option name="LAST_COMMIT_MESSAGE" value="16-aug-2025 session." />
+    <MESSAGE value="Session: 27-Sep-2025 (First program)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session: 27-Sep-2025 (First program)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

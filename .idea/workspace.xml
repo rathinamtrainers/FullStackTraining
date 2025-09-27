@@ -7,31 +7,8 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="before 15-aug-2025 code.">
-      <change afterPath="$PROJECT_DIR$/src/javascript/200-array-methods-reduce.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/201-array-methods-reduce-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/202-array-methods-find.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/203-array-methods-some.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/204-array-methods-every.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/205-array-methods-filter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/206-array-methods-sort-ascending.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/207-array-methods-sort-alphabetically.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/208-array-methods-sort-alphabetically-case-insensitive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/210-rest-opeartor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/211-rest-opeartor-array-destructing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/212-spread-opeartor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/213-spread-opeartor-on-objects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/214-classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/215-classes-default-parameters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/215-classes-inheritance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/231-main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/231-mathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/232-greet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/232-main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/233-main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/233-shape.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/234-vite-demo/my-app2/src/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javascript/234-without-bundlers.html" afterDir="false" />
+    <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="16-aug-2025 session.">
+      <change afterPath="$PROJECT_DIR$/src/nodejs/010-010-hello.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +45,8 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.011-index.html.executor": "Debug",
     "JavaScript Debug.zzz-tester.html.executor": "Run",
+    "Node.js.010-010-hello.js (1).executor": "Run",
+    "Node.js.010-010-hello.js.executor": "Run",
     "Node.js.010-hello.js.executor": "Run",
     "Node.js.020-variables.js.executor": "Run",
     "Node.js.021-datatypes.js.executor": "Run",
@@ -123,6 +102,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "22.15.0",
+    "javascript.nodejs.core.library.typings.version": "22.15.35",
     "last_opened_file_path": "D:/dev/WebStorm/FullStackTraining/src/javascript",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -131,7 +112,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "D:\\ThirdPartySoftwares\\WebStorm 2023.3.8\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -148,29 +130,21 @@
       <recent name="C:\Users\RajanRayappan\WebstormProjects\fullstack-demo-1\audio" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.233-main.js">
-    <configuration name="115-es6-default-parameters.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/115-es6-default-parameters.js" working-dir="$PROJECT_DIR$/src/javascript">
+  <component name="RunManager" selected="Node.js.010-010-hello.js (1)">
+    <configuration name="010-010-hello.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/nodejs/010-010-hello.js" working-dir="$PROJECT_DIR$/src/nodejs">
       <method v="2" />
     </configuration>
-    <configuration name="155-closure-visualize.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/155-closure-visualize.js" working-dir="$PROJECT_DIR$/src/javascript">
+    <configuration name="010-010-hello.js" type="NodeJSConfigurationType" temporary="true" application-parameters="Rajan" nameIsGenerated="true" path-to-js-file="010-010-hello.js" working-dir="$PROJECT_DIR$/src/nodejs">
       <method v="2" />
     </configuration>
-    <configuration name="231-main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/231-main.js" working-dir="$PROJECT_DIR$/src/javascript">
-      <method v="2" />
-    </configuration>
-    <configuration name="232-main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/232-main.js" working-dir="$PROJECT_DIR$/src/javascript">
-      <method v="2" />
-    </configuration>
-    <configuration name="233-main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/javascript/233-main.js" working-dir="$PROJECT_DIR$/src/javascript">
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Node.js.010-010-hello.js (1)" />
+      <item itemvalue="Node.js.010-010-hello.js" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.233-main.js" />
-        <item itemvalue="Node.js.232-main.js" />
-        <item itemvalue="Node.js.231-main.js" />
-        <item itemvalue="Node.js.155-closure-visualize.js" />
-        <item itemvalue="Node.js.115-es6-default-parameters.js" />
+        <item itemvalue="Node.js.010-010-hello.js (1)" />
+        <item itemvalue="Node.js.010-010-hello.js" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +173,9 @@
       <workItem from="1747542163557" duration="600000" />
       <workItem from="1749656397896" duration="9000" />
       <workItem from="1753497962262" duration="8966000" />
-      <workItem from="1755312334731" duration="7700000" />
+      <workItem from="1755312334731" duration="8143000" />
+      <workItem from="1756915241594" duration="486000" />
+      <workItem from="1758940821609" duration="5546000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
@@ -569,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755313501603</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="16-aug-2025 session.">
+      <option name="closed" value="true" />
+      <created>1755320307558</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1755320307558</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Text Styling" />
     <MESSAGE value="Box Modelling." />
     <MESSAGE value="backgrounds" />
     <MESSAGE value="display and positioning." />
@@ -612,7 +595,8 @@
     <MESSAGE value="10-May-2025 - Scopes" />
     <MESSAGE value="10-May-2025 - Hoisting" />
     <MESSAGE value="before 15-aug-2025 code." />
-    <option name="LAST_COMMIT_MESSAGE" value="before 15-aug-2025 code." />
+    <MESSAGE value="16-aug-2025 session." />
+    <option name="LAST_COMMIT_MESSAGE" value="16-aug-2025 session." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

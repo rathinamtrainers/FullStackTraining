@@ -8,10 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e0d1044-2cfc-44de-8be6-7022bbc272aa" name="Changes" comment="Session: 27-Sep-2025 (Second program) - debugging">
-      <change afterPath="$PROJECT_DIR$/src/nodejs/010-010-Event-Loop-Demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nodejs/003-010-fs-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nodejs/003-020-path-demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nodejs/010-010-hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/001-010-hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nodejs/010-020-debugging-techniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/001-020-debugging-techniques.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,8 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.011-index.html.executor": "Debug",
     "JavaScript Debug.zzz-tester.html.executor": "Run",
+    "Node.js.003-010-fs-demo.js.executor": "Debug",
+    "Node.js.003-020-path-demo.js.executor": "Run",
     "Node.js.010-010-Event-Loop-Demo.js.executor": "Run",
     "Node.js.010-010-hello.js (1).executor": "Run",
     "Node.js.010-010-hello.js.executor": "Run",
@@ -134,7 +135,7 @@
       <recent name="C:\Users\RajanRayappan\WebstormProjects\fullstack-demo-1\audio" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.010-010-Event-Loop-Demo.js">
+  <component name="RunManager" selected="Node.js.003-020-path-demo.js">
     <configuration name="001-010-hello.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/nodejs/001-010-hello.js" working-dir="$PROJECT_DIR$/src/nodejs">
       <method v="2" />
     </configuration>
@@ -144,22 +145,28 @@
     <configuration name="001-020-debugging-techniques.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/nodejs/001-020-debugging-techniques.js" working-dir="$PROJECT_DIR$/src/nodejs">
       <method v="2" />
     </configuration>
+    <configuration name="003-010-fs-demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/nodejs/003-010-fs-demo.js" working-dir="$PROJECT_DIR$/src/nodejs">
+      <method v="2" />
+    </configuration>
+    <configuration name="003-020-path-demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/nodejs/003-020-path-demo.js" working-dir="$PROJECT_DIR$/src/nodejs">
+      <method v="2" />
+    </configuration>
     <configuration name="010-010-Event-Loop-Demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/nodejs/010-010-Event-Loop-Demo.js" working-dir="$PROJECT_DIR$/src/nodejs">
       <method v="2" />
     </configuration>
-    <configuration name="010-010-hello.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/nodejs/010-010-hello.js" working-dir="$PROJECT_DIR$/src/nodejs">
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Node.js.003-010-fs-demo.js" />
+      <item itemvalue="Node.js.003-020-path-demo.js" />
       <item itemvalue="Node.js.010-010-Event-Loop-Demo.js" />
       <item itemvalue="Node.js.001-020-debugging-techniques.js" />
       <item itemvalue="Node.js.001-010-hello.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.003-020-path-demo.js" />
+        <item itemvalue="Node.js.003-010-fs-demo.js" />
         <item itemvalue="Node.js.010-010-Event-Loop-Demo.js" />
         <item itemvalue="Node.js.001-020-debugging-techniques.js" />
-        <item itemvalue="Node.js.001-010-hello.js" />
         <item itemvalue="Node.js.001-010-hello.js" />
       </list>
     </recent_temporary>
@@ -194,6 +201,7 @@
       <workItem from="1758940821609" duration="8635000" />
       <workItem from="1762018016261" duration="2005000" />
       <workItem from="1762571949609" duration="4505000" />
+      <workItem from="1763171952588" duration="8078000" />
     </task>
     <task id="LOCAL-00001" summary="Basics of html - demo-1">
       <option name="closed" value="true" />
